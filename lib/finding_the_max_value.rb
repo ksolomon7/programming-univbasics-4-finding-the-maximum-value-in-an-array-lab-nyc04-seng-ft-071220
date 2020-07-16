@@ -10,7 +10,8 @@ def find_max_value(array)
   while counter<array.length do
     if array[counter]>max_number
       max_number=array[counter]
-      counter+=1
-  end
-   max_number
+    end
+    counter+=1
+ end
+  max_number
 end
